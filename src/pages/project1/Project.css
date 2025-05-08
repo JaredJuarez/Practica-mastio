@@ -1,0 +1,200 @@
+.report-container {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.report-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.report-header button {
+  background-color: #bebebe;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.report-container h2 {
+  color: #333;
+  padding-bottom: 10px;
+  margin-top: 0;
+}
+
+.report-container h3 {
+  color: #555;
+  font-size: 1.1em;
+}
+
+.report-container {
+  color: #666;
+  font-size: 0.8em;
+  margin-bottom: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse; /* Une los bordes de las celdas */
+  margin-top: 20px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.05);
+}
+
+th,
+td {
+  border: 1px solid #ddd; /* Bordes para celdas y encabezados */
+  padding: 10px; /* Espaciado interno */
+  text-align: left; /* Alineación del texto */
+  font-size: 0.95em;
+  color: #000;
+}
+
+th {
+  background-color: #e9ecef; /* Color de fondo para encabezados */
+  color: #495057;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f8f9fa; /* Color de fondo para filas pares */
+}
+
+tr:hover {
+  background-color: #e2e6ea; /* Color de fondo al pasar el mouse */
+}
+
+.total-companies {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.progress-bar-container {
+  width: 100%;
+  height: 20px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 2px; /* Espacio entre las barras */
+  padding: 2px 0; /* Espacio interno para las barras */
+}
+
+.progress-bar {
+  height: 8px;
+  background-color: #6d84f6;
+  transition: width 0.4s ease;
+}
+
+.score-rule {
+  position: fixed;
+  bottom: 20px; /* Eleva la regla desde el borde inferior */
+  left: 45%; /* Alineado con la columna "Score Chart" */
+  width: 25%; /* Ancho igual al de la columna "Score Chart" */
+  background-color: white; /* Fondo blanco para la regla */
+  z-index: 1000;
+}
+
+.score-line {
+  position: relative;
+  width: 100%;
+  height: 2px;
+  background-color: #333; /* Línea principal */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.score-tick {
+  position: relative;
+  font-size: 0.7em;
+  color: #333;
+  text-align: center;
+  margin-top: 15px; /* Espaciado para que los números estén debajo de la regla */
+  flex: 1; /* Asegura que las marcas se distribuyan uniformemente */
+}
+
+.score-tick:first-child::before,
+.score-tick:last-child::before {
+  content: "";
+  position: absolute;
+  top: -10px; /* Eleva la marca para que quede sobre la línea */
+  left: 0; /* Alinea la primera marca al borde izquierdo */
+  transform: none;
+  width: 3px;
+  height: 10px;
+  background-color: #333; /* Marca de separación */
+}
+
+.score-tick:not(:first-child):not(:last-child)::before {
+  content: "";
+  position: absolute;
+  top: -10px; /* Eleva la marca para que quede sobre la línea */
+  left: 50%; /* Centra las marcas intermedias */
+  transform: translateX(-50%);
+  width: 1px;
+  height: 10px;
+  background-color: #333; /* Marca de separación */
+}
+
+.year-switch {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #6d84f6;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.progress-bar.secondary {
+  background-color: #66d33e;
+  opacity: 0.8;
+}

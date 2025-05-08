@@ -1,0 +1,1155 @@
+{
+    "report": {
+      "studyAnalysis": "Default Pipeline 29th Ed. - 2025",
+      "name": "Representatives use creativity and innovation to help address your business needs. ",
+      "industryAverage": 0,
+      "importance": 0,
+      "categories": [
+        {
+          "id": "",
+          "name": "Default",
+          "companies": [
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 1,
+                  "studyId": "tOHrj7jw",
+                  "responses": 59,
+                  "score": 7.627118,
+                  "industryAverage": 7.972453,
+                  "increment": -4.3316
+                },
+                {
+                  "companyId": 1,
+                  "studyId": "56FwueM2",
+                  "responses": 41,
+                  "score": 7.585365,
+                  "industryAverage": 8.172413,
+                  "increment": -7.1832
+                }
+              ],
+              "id": 1,
+              "name": "ANR Pipeline Co.",
+              "isCompetitor": false,
+              "isFocusCompany": false
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 2,
+                  "studyId": "tOHrj7jw",
+                  "responses": 16,
+                  "score": 7.25,
+                  "industryAverage": 7.972453,
+                  "increment": -9.0618
+                },
+                {
+                  "companyId": 2,
+                  "studyId": "56FwueM2",
+                  "responses": 16,
+                  "score": 7.3125,
+                  "industryAverage": 8.172413,
+                  "increment": -10.5221
+                }
+              ],
+              "id": 2,
+              "name": "BC Pipeline",
+              "isCompetitor": false,
+              "isFocusCompany": false
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 3,
+                  "studyId": "tOHrj7jw",
+                  "responses": 21,
+                  "score": 8.95238,
+                  "industryAverage": 7.972453,
+                  "increment": 12.2914
+                },
+                {
+                  "companyId": 3,
+                  "studyId": "56FwueM2",
+                  "responses": 20,
+                  "score": 8.9,
+                  "industryAverage": 8.172413,
+                  "increment": 8.9029
+                }
+              ],
+              "id": 3,
+              "name": "California Gas Transmission",
+              "isCompetitor": false,
+              "isFocusCompany": false
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 4,
+                  "studyId": "tOHrj7jw",
+                  "responses": 28,
+                  "score": 7.428571,
+                  "industryAverage": 7.972453,
+                  "increment": -6.822
+                },
+                {
+                  "companyId": 4,
+                  "studyId": "56FwueM2",
+                  "responses": 12,
+                  "score": 8.083333,
+                  "industryAverage": 8.172413,
+                  "increment": -1.09
+                }
+              ],
+              "id": 4,
+              "name": "Canadian Mainline",
+              "isCompetitor": false,
+              "isFocusCompany": false
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 5,
+                  "studyId": "tOHrj7jw",
+                  "responses": 39,
+                  "score": 9.307692,
+                  "industryAverage": 7.972453,
+                  "increment": 16.7481
+                },
+                {
+                  "companyId": 5,
+                  "studyId": "56FwueM2",
+                  "responses": 38,
+                  "score": 9.263157,
+                  "industryAverage": 8.172413,
+                  "increment": 13.3466
+                }
+              ],
+              "id": 5,
+              "name": "Carolina Gas Transmission",
+              "isCompetitor": false,
+              "isFocusCompany": false
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 6,
+                  "studyId": "tOHrj7jw",
+                  "responses": 28,
+                  "score": 7.857142,
+                  "industryAverage": 7.972453,
+                  "increment": -1.4463
+                },
+                {
+                  "companyId": 6,
+                  "studyId": "56FwueM2",
+                  "responses": 27,
+                  "score": 8.444444,
+                  "industryAverage": 8.172413,
+                  "increment": 3.3286
+                }
+              ],
+              "id": 6,
+              "name": "Colorado Interstate Gas Co.",
+              "isCompetitor": false,
+              "isFocusCompany": false
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 7,
+                  "studyId": "tOHrj7jw",
+                  "responses": 47,
+                  "score": 7.680851,
+                  "industryAverage": 7.972453,
+                  "increment": -3.6576
+                },
+                {
+                  "companyId": 7,
+                  "studyId": "56FwueM2",
+                  "responses": 42,
+                  "score": 7.595238,
+                  "industryAverage": 8.172413,
+                  "increment": -7.0624
+                }
+              ],
+              "id": 7,
+              "name": "Columbia Gas Transmission Corp.",
+              "isCompetitor": false,
+              "isFocusCompany": false
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 8,
+                  "studyId": "tOHrj7jw",
+                  "responses": 9,
+                  "score": 7.333333,
+                  "industryAverage": 7.972453,
+                  "increment": -8.0166
+                },
+                {
+                  "companyId": 8,
+                  "studyId": "56FwueM2",
+                  "responses": 12,
+                  "score": 8.583333,
+                  "industryAverage": 8.172413,
+                  "increment": 5.0281
+                }
+              ],
+              "id": 8,
+              "name": "Columbia Gulf Transmission Co.",
+              "isCompetitor": false,
+              "isFocusCompany": false
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 9,
+                  "studyId": "tOHrj7jw",
+                  "responses": 15,
+                  "score": 7.6,
+                  "industryAverage": 7.972453,
+                  "increment": -4.6717
+                },
+                {
+                  "companyId": 9,
+                  "studyId": "56FwueM2",
+                  "responses": 18,
+                  "score": 8.277777,
+                  "industryAverage": 8.172413,
+                  "increment": 1.2892
+                }
+              ],
+              "id": 9,
+              "name": "East Tennessee Natural Gas Co.",
+              "isCompetitor": false,
+              "isFocusCompany": false
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 10,
+                  "studyId": "tOHrj7jw",
+                  "responses": 62,
+                  "score": 8.596774,
+                  "industryAverage": 7.972453,
+                  "increment": 7.8309
+                },
+                {
+                  "companyId": 10,
+                  "studyId": "56FwueM2",
+                  "responses": 67,
+                  "score": 9.0,
+                  "industryAverage": 8.172413,
+                  "increment": 10.1265
+                }
+              ],
+              "id": 10,
+              "name": "Eastern Gas Trans. & Storage",
+              "isCompetitor": true,
+              "isFocusCompany": true
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 11,
+                  "studyId": "tOHrj7jw",
+                  "responses": 51,
+                  "score": 7.607843,
+                  "industryAverage": 7.972453,
+                  "increment": -4.5733
+                },
+                {
+                  "companyId": 11,
+                  "studyId": "56FwueM2",
+                  "responses": 46,
+                  "score": 8.717391,
+                  "industryAverage": 8.172413,
+                  "increment": 6.6685
+                }
+              ],
+              "id": 11,
+              "name": "El Paso Natural Gas Co.",
+              "isCompetitor": false,
+              "isFocusCompany": false
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 12,
+                  "studyId": "tOHrj7jw",
+                  "responses": 17,
+                  "score": 7.588235,
+                  "industryAverage": 7.972453,
+                  "increment": -4.8193
+                },
+                {
+                  "companyId": 12,
+                  "studyId": "56FwueM2",
+                  "responses": 14,
+                  "score": 7.571428,
+                  "industryAverage": 8.172413,
+                  "increment": -7.3538
+                }
+              ],
+              "id": 12,
+              "name": "Enable Gas Transmission",
+              "isCompetitor": false,
+              "isFocusCompany": false
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 13,
+                  "studyId": "tOHrj7jw",
+                  "responses": 18,
+                  "score": 7.944444,
+                  "industryAverage": 7.972453,
+                  "increment": -0.3513
+                },
+                {
+                  "companyId": 13,
+                  "studyId": "56FwueM2",
+                  "responses": 25,
+                  "score": 8.48,
+                  "industryAverage": 8.172413,
+                  "increment": 3.7637
+                }
+              ],
+              "id": 13,
+              "name": "Enbridge Gas",
+              "isCompetitor": false,
+              "isFocusCompany": false
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 14,
+                  "studyId": "tOHrj7jw",
+                  "responses": 15,
+                  "score": 7.733333,
+                  "industryAverage": 7.972453,
+                  "increment": -2.9993
+                },
+                {
+                  "companyId": 14,
+                  "studyId": "56FwueM2",
+                  "responses": 14,
+                  "score": 8.071428,
+                  "industryAverage": 8.172413,
+                  "increment": -1.2356
+                }
+              ],
+              "id": 14,
+              "name": "Florida Gas Transmission Co.",
+              "isCompetitor": false,
+              "isFocusCompany": false
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 15,
+                  "studyId": "tOHrj7jw",
+                  "responses": 23,
+                  "score": 7.173913,
+                  "industryAverage": 7.972453,
+                  "increment": -10.0162
+                },
+                {
+                  "companyId": 15,
+                  "studyId": "56FwueM2",
+                  "responses": 26,
+                  "score": 6.307692,
+                  "industryAverage": 8.172413,
+                  "increment": -22.8172
+                }
+              ],
+              "id": 15,
+              "name": "Gas Transmission Northwest",
+              "isCompetitor": false,
+              "isFocusCompany": false
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 16,
+                  "studyId": "tOHrj7jw",
+                  "responses": 18,
+                  "score": 7.111111,
+                  "industryAverage": 7.972453,
+                  "increment": -10.8039
+                },
+                {
+                  "companyId": 16,
+                  "studyId": "56FwueM2",
+                  "responses": 12,
+                  "score": 7.583333,
+                  "industryAverage": 8.172413,
+                  "increment": -7.2081
+                }
+              ],
+              "id": 16,
+              "name": "Great Lakes Gas Transmission, Inc.",
+              "isCompetitor": false,
+              "isFocusCompany": false
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 17,
+                  "studyId": "tOHrj7jw",
+                  "responses": 19,
+                  "score": 7.68421,
+                  "industryAverage": 7.972453,
+                  "increment": -3.6154
+                },
+                {
+                  "companyId": 17,
+                  "studyId": "56FwueM2",
+                  "responses": 18,
+                  "score": 8.055555,
+                  "industryAverage": 8.172413,
+                  "increment": -1.4299
+                }
+              ],
+              "id": 17,
+              "name": "Gulf South Pipeline Co.",
+              "isCompetitor": false,
+              "isFocusCompany": false
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 18,
+                  "studyId": "tOHrj7jw",
+                  "responses": 17,
+                  "score": 8.117647,
+                  "industryAverage": 7.972453,
+                  "increment": 1.8211
+                },
+                {
+                  "companyId": 18,
+                  "studyId": "56FwueM2",
+                  "responses": 23,
+                  "score": 8.217391,
+                  "industryAverage": 8.172413,
+                  "increment": 0.5503
+                }
+              ],
+              "id": 18,
+              "name": "Iroquois Gas Transmission System L.P.",
+              "isCompetitor": false,
+              "isFocusCompany": false
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 19,
+                  "studyId": "tOHrj7jw",
+                  "responses": 73,
+                  "score": 9.671232,
+                  "industryAverage": 7.972453,
+                  "increment": 21.3081
+                },
+                {
+                  "companyId": 19,
+                  "studyId": "56FwueM2",
+                  "responses": 69,
+                  "score": 9.782608,
+                  "industryAverage": 8.172413,
+                  "increment": 19.7028
+                }
+              ],
+              "id": 19,
+              "name": "Kern River Gas Transmission Co.",
+              "isCompetitor": false,
+              "isFocusCompany": false
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 20,
+                  "studyId": "tOHrj7jw",
+                  "responses": 15,
+                  "score": 7.2,
+                  "industryAverage": 7.972453,
+                  "increment": -9.689
+                },
+                {
+                  "companyId": 20,
+                  "studyId": "56FwueM2",
+                  "responses": 12,
+                  "score": 8.0,
+                  "industryAverage": 8.172413,
+                  "increment": -2.1096
+                }
+              ],
+              "id": 20,
+              "name": "Midwestern Gas Transmission Co.",
+              "isCompetitor": false,
+              "isFocusCompany": false
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 21,
+                  "studyId": "tOHrj7jw",
+                  "responses": 32,
+                  "score": 8.9375,
+                  "industryAverage": 7.972453,
+                  "increment": 12.1047
+                },
+                {
+                  "companyId": 21,
+                  "studyId": "56FwueM2",
+                  "responses": 28,
+                  "score": 8.642857,
+                  "industryAverage": 8.172413,
+                  "increment": 5.7564
+                }
+              ],
+              "id": 21,
+              "name": "MountainWest Overthrust Pipeline",
+              "isCompetitor": false,
+              "isFocusCompany": false
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 22,
+                  "studyId": "tOHrj7jw",
+                  "responses": 48,
+                  "score": 8.5,
+                  "industryAverage": 7.972453,
+                  "increment": 6.6171
+                },
+                {
+                  "companyId": 22,
+                  "studyId": "56FwueM2",
+                  "responses": 48,
+                  "score": 8.854166,
+                  "industryAverage": 8.172413,
+                  "increment": 8.3421
+                }
+              ],
+              "id": 22,
+              "name": "MountainWest Pipeline",
+              "isCompetitor": false,
+              "isFocusCompany": false
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 23,
+                  "studyId": "tOHrj7jw",
+                  "responses": 12,
+                  "score": 8.333333,
+                  "industryAverage": 7.972453,
+                  "increment": 4.5265
+                },
+                {
+                  "companyId": 23,
+                  "studyId": "56FwueM2",
+                  "responses": 12,
+                  "score": 8.833333,
+                  "industryAverage": 8.172413,
+                  "increment": 8.0872
+                }
+              ],
+              "id": 23,
+              "name": "National Fuel Gas Supply Corp.",
+              "isCompetitor": false,
+              "isFocusCompany": false
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 24,
+                  "studyId": "tOHrj7jw",
+                  "responses": 46,
+                  "score": 7.217391,
+                  "industryAverage": 7.972453,
+                  "increment": -9.4708
+                },
+                {
+                  "companyId": 24,
+                  "studyId": "56FwueM2",
+                  "responses": 38,
+                  "score": 7.447368,
+                  "industryAverage": 8.172413,
+                  "increment": -8.8718
+                }
+              ],
+              "id": 24,
+              "name": "Natural Gas Pipeline Co. of America",
+              "isCompetitor": false,
+              "isFocusCompany": false
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 25,
+                  "studyId": "tOHrj7jw",
+                  "responses": 35,
+                  "score": 7.885714,
+                  "industryAverage": 7.972453,
+                  "increment": -1.0879
+                },
+                {
+                  "companyId": 25,
+                  "studyId": "56FwueM2",
+                  "responses": 29,
+                  "score": 7.724137,
+                  "industryAverage": 8.172413,
+                  "increment": -5.4852
+                }
+              ],
+              "id": 25,
+              "name": "Northern Border Pipeline Co.",
+              "isCompetitor": false,
+              "isFocusCompany": false
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 26,
+                  "studyId": "tOHrj7jw",
+                  "responses": 106,
+                  "score": 9.273584,
+                  "industryAverage": 7.972453,
+                  "increment": 16.3203
+                },
+                {
+                  "companyId": 26,
+                  "studyId": "56FwueM2",
+                  "responses": 105,
+                  "score": 9.019047,
+                  "industryAverage": 8.172413,
+                  "increment": 10.3596
+                }
+              ],
+              "id": 26,
+              "name": "Northern Natural Gas Co.",
+              "isCompetitor": true,
+              "isFocusCompany": false
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 27,
+                  "studyId": "tOHrj7jw",
+                  "responses": 31,
+                  "score": 6.806451,
+                  "industryAverage": 7.972453,
+                  "increment": -14.6253
+                },
+                {
+                  "companyId": 27,
+                  "studyId": "56FwueM2",
+                  "responses": 22,
+                  "score": 6.727272,
+                  "industryAverage": 8.172413,
+                  "increment": -17.6831
+                }
+              ],
+              "id": 27,
+              "name": "Nova Gas Transmission Line",
+              "isCompetitor": false,
+              "isFocusCompany": false
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 28,
+                  "studyId": "tOHrj7jw",
+                  "responses": 27,
+                  "score": 7.333333,
+                  "industryAverage": 7.972453,
+                  "increment": -8.0166
+                },
+                {
+                  "companyId": 28,
+                  "studyId": "56FwueM2",
+                  "responses": 19,
+                  "score": 7.263157,
+                  "industryAverage": 8.172413,
+                  "increment": -11.1259
+                }
+              ],
+              "id": 28,
+              "name": "ONEOK Gas Transportation Co.",
+              "isCompetitor": false,
+              "isFocusCompany": false
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 29,
+                  "studyId": "tOHrj7jw",
+                  "responses": 31,
+                  "score": 7.48387,
+                  "industryAverage": 7.972453,
+                  "increment": -6.1283
+                },
+                {
+                  "companyId": 29,
+                  "studyId": "56FwueM2",
+                  "responses": 28,
+                  "score": 7.571428,
+                  "industryAverage": 8.172413,
+                  "increment": -7.3538
+                }
+              ],
+              "id": 29,
+              "name": "Panhandle Eastern Pipe Line Co.",
+              "isCompetitor": false,
+              "isFocusCompany": false
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 30,
+                  "studyId": "tOHrj7jw",
+                  "responses": 31,
+                  "score": 7.838709,
+                  "industryAverage": 7.972453,
+                  "increment": -1.6775
+                },
+                {
+                  "companyId": 30,
+                  "studyId": "56FwueM2",
+                  "responses": 33,
+                  "score": 7.757575,
+                  "industryAverage": 8.172413,
+                  "increment": -5.076
+                }
+              ],
+              "id": 30,
+              "name": "Rockies Express Pipeline",
+              "isCompetitor": false,
+              "isFocusCompany": false
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 31,
+                  "studyId": "tOHrj7jw",
+                  "responses": 27,
+                  "score": 7.259259,
+                  "industryAverage": 7.972453,
+                  "increment": -8.9457
+                },
+                {
+                  "companyId": 31,
+                  "studyId": "56FwueM2",
+                  "responses": 24,
+                  "score": 7.375,
+                  "industryAverage": 8.172413,
+                  "increment": -9.7573
+                }
+              ],
+              "id": 31,
+              "name": "Southern California Gas Co.",
+              "isCompetitor": false,
+              "isFocusCompany": false
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 32,
+                  "studyId": "tOHrj7jw",
+                  "responses": 42,
+                  "score": 7.714285,
+                  "industryAverage": 7.972453,
+                  "increment": -3.2382
+                },
+                {
+                  "companyId": 32,
+                  "studyId": "56FwueM2",
+                  "responses": 37,
+                  "score": 7.891891,
+                  "industryAverage": 8.172413,
+                  "increment": -3.4325
+                }
+              ],
+              "id": 32,
+              "name": "Southern Natural Gas Co.",
+              "isCompetitor": false,
+              "isFocusCompany": false
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 33,
+                  "studyId": "tOHrj7jw",
+                  "responses": 60,
+                  "score": 8.366666,
+                  "industryAverage": 7.972453,
+                  "increment": 4.9446
+                },
+                {
+                  "companyId": 33,
+                  "studyId": "56FwueM2",
+                  "responses": 54,
+                  "score": 8.277777,
+                  "industryAverage": 8.172413,
+                  "increment": 1.2892
+                }
+              ],
+              "id": 33,
+              "name": "Southern Star Central",
+              "isCompetitor": true,
+              "isFocusCompany": false
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 34,
+                  "studyId": "tOHrj7jw",
+                  "responses": 24,
+                  "score": 8.083333,
+                  "industryAverage": 7.972453,
+                  "increment": 1.3907
+                },
+                {
+                  "companyId": 34,
+                  "studyId": "56FwueM2",
+                  "responses": 35,
+                  "score": 6.914285,
+                  "industryAverage": 8.172413,
+                  "increment": -15.3948
+                }
+              ],
+              "id": 34,
+              "name": "Tallgrass Interstate Gas Trans.",
+              "isCompetitor": false,
+              "isFocusCompany": false
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 35,
+                  "studyId": "tOHrj7jw",
+                  "responses": 59,
+                  "score": 7.423728,
+                  "industryAverage": 7.972453,
+                  "increment": -6.8827
+                },
+                {
+                  "companyId": 35,
+                  "studyId": "56FwueM2",
+                  "responses": 55,
+                  "score": 8.10909,
+                  "industryAverage": 8.172413,
+                  "increment": -0.7748
+                }
+              ],
+              "id": 35,
+              "name": "Tennessee Gas Pipeline Co.",
+              "isCompetitor": true,
+              "isFocusCompany": false
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 36,
+                  "studyId": "tOHrj7jw",
+                  "responses": 61,
+                  "score": 7.262295,
+                  "industryAverage": 7.972453,
+                  "increment": -8.9076
+                },
+                {
+                  "companyId": 36,
+                  "studyId": "56FwueM2",
+                  "responses": 44,
+                  "score": 7.886363,
+                  "industryAverage": 8.172413,
+                  "increment": -3.5001
+                }
+              ],
+              "id": 36,
+              "name": "Texas Eastern Transmission Corp.",
+              "isCompetitor": false,
+              "isFocusCompany": false
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 37,
+                  "studyId": "tOHrj7jw",
+                  "responses": 32,
+                  "score": 7.59375,
+                  "industryAverage": 7.972453,
+                  "increment": -4.7501
+                },
+                {
+                  "companyId": 37,
+                  "studyId": "56FwueM2",
+                  "responses": 28,
+                  "score": 7.321428,
+                  "industryAverage": 8.172413,
+                  "increment": -10.4128
+                }
+              ],
+              "id": 37,
+              "name": "Texas Gas Transmission",
+              "isCompetitor": false,
+              "isFocusCompany": false
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 38,
+                  "studyId": "tOHrj7jw",
+                  "responses": 7,
+                  "score": 7.714285,
+                  "industryAverage": 7.972453,
+                  "increment": -3.2382
+                },
+                {
+                  "companyId": 38,
+                  "studyId": "56FwueM2",
+                  "responses": 17,
+                  "score": 7.0,
+                  "industryAverage": 8.172413,
+                  "increment": -14.3459
+                }
+              ],
+              "id": 38,
+              "name": "Trailblazer Pipeline Co.",
+              "isCompetitor": false,
+              "isFocusCompany": false
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 39,
+                  "studyId": "tOHrj7jw",
+                  "responses": 22,
+                  "score": 7.045454,
+                  "industryAverage": 7.972453,
+                  "increment": -11.6275
+                },
+                {
+                  "companyId": 39,
+                  "studyId": "56FwueM2",
+                  "responses": 15,
+                  "score": 7.6,
+                  "industryAverage": 8.172413,
+                  "increment": -7.0042
+                }
+              ],
+              "id": 39,
+              "name": "Transwestern Pipeline Co.",
+              "isCompetitor": false,
+              "isFocusCompany": false
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 40,
+                  "studyId": "tOHrj7jw",
+                  "responses": 18,
+                  "score": 8.277777,
+                  "industryAverage": 7.972453,
+                  "increment": 3.8297
+                },
+                {
+                  "companyId": 40,
+                  "studyId": "56FwueM2",
+                  "responses": 12,
+                  "score": 8.416666,
+                  "industryAverage": 8.172413,
+                  "increment": 2.9887
+                }
+              ],
+              "id": 40,
+              "name": "Vector Pipeline",
+              "isCompetitor": false,
+              "isFocusCompany": false
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 41,
+                  "studyId": "tOHrj7jw",
+                  "responses": 27,
+                  "score": 7.592592,
+                  "industryAverage": 7.972453,
+                  "increment": -4.7646
+                },
+                {
+                  "companyId": 41,
+                  "studyId": "56FwueM2",
+                  "responses": 18,
+                  "score": 7.888888,
+                  "industryAverage": 8.172413,
+                  "increment": -3.4692
+                }
+              ],
+              "id": 41,
+              "name": "Viking Gas Transmission Co.",
+              "isCompetitor": false,
+              "isFocusCompany": false
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 42,
+                  "studyId": "tOHrj7jw",
+                  "responses": 35,
+                  "score": 7.971428,
+                  "industryAverage": 7.972453,
+                  "increment": -0.0128
+                },
+                {
+                  "companyId": 42,
+                  "studyId": "56FwueM2",
+                  "responses": 20,
+                  "score": 8.3,
+                  "industryAverage": 8.172413,
+                  "increment": 1.5611
+                }
+              ],
+              "id": 42,
+              "name": "WBI Energy Transmission",
+              "isCompetitor": false,
+              "isFocusCompany": false
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 43,
+                  "studyId": "tOHrj7jw",
+                  "responses": 59,
+                  "score": 8.118644,
+                  "industryAverage": 7.972453,
+                  "increment": 1.8337
+                },
+                {
+                  "companyId": 43,
+                  "studyId": "56FwueM2",
+                  "responses": 68,
+                  "score": 8.735294,
+                  "industryAverage": 8.172413,
+                  "increment": 6.8875
+                }
+              ],
+              "id": 43,
+              "name": "Williams Gas Pipeline-Northwest",
+              "isCompetitor": true,
+              "isFocusCompany": false
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 44,
+                  "studyId": "tOHrj7jw",
+                  "responses": 91,
+                  "score": 7.32967,
+                  "industryAverage": 7.972453,
+                  "increment": -8.0625
+                },
+                {
+                  "companyId": 44,
+                  "studyId": "56FwueM2",
+                  "responses": 69,
+                  "score": 7.333333,
+                  "industryAverage": 8.172413,
+                  "increment": -10.2672
+                }
+              ],
+              "id": 44,
+              "name": "Williams Gas Pipeline-Transco",
+              "isCompetitor": true,
+              "isFocusCompany": false
+            },
+            {
+              "ordinal": 0,
+              "scores": [
+                {
+                  "companyId": 45,
+                  "studyId": "tOHrj7jw",
+                  "responses": 8,
+                  "score": 7.75,
+                  "industryAverage": 7.972453,
+                  "increment": -2.7902
+                },
+                {
+                  "companyId": 45,
+                  "studyId": "56FwueM2",
+                  "responses": 11,
+                  "score": 7.727272,
+                  "industryAverage": 8.172413,
+                  "increment": -5.4468
+                }
+              ],
+              "id": 45,
+              "name": "Wyoming Interstate Co. Ltd.",
+              "isCompetitor": false,
+              "isFocusCompany": false
+            }
+          ]
+        }
+      ],
+      "studies": [
+        {
+          "publicKey": "56FwueM2",
+          "logicalKey": "56FwueM2",
+          "displayName": "Gas Pipeline 29th - 2024-25",
+          "responses": 0
+        },
+        {
+          "publicKey": "tOHrj7jw",
+          "logicalKey": "tOHrj7jw",
+          "displayName": "Gas Pipeline 28th - 2023-24",
+          "responses": 0
+        }
+      ]
+    }
+  }
