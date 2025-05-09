@@ -1,9 +1,12 @@
 .report-container {
   font-family: Arial, Helvetica, sans-serif;
-  padding: 5rem;
+  padding: 2rem;
   background-color: #f9f9f9;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 .report-header {
@@ -39,34 +42,29 @@
   margin-bottom: 15px;
 }
 
-table {
-  width: 100%;
-  border-collapse: collapse; /* Une los bordes de las celdas */
-  margin-top: 20px;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.05);
+thead {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #f9f9f9;
 }
 
-th,
-td {
-  border: 1px solid #ddd; /* Bordes para celdas y encabezados */
-  padding: 10px; /* Espaciado interno */
-  text-align: left; /* Alineación del texto */
-  font-size: 0.95em;
-  color: #000;
+tbody tr:first-child td {
+  border-top: none;
 }
 
 th {
-  background-color: #e9ecef; /* Color de fondo para encabezados */
+  background-color: #e9ecef;
   color: #495057;
   font-weight: bold;
 }
 
 tr:nth-child(even) {
-  background-color: #f8f9fa; /* Color de fondo para filas pares */
+  background-color: #f8f9fa;
 }
 
 tr:hover {
-  background-color: #e2e6ea; /* Color de fondo al pasar el mouse */
+  background-color: #e2e6ea;
 }
 
 .total-companies {
@@ -82,65 +80,14 @@ tr:hover {
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: 2px; /* Espacio entre las barras */
-  padding: 2px 0; /* Espacio interno para las barras */
+  gap: 2px;
+  padding: 2px 0;
 }
 
 .progress-bar {
-  height: 8px;
+  height: 100%;
   background-color: #6d84f6;
   transition: width 0.4s ease;
-}
-
-.score-rule {
-  position: fixed;
-  bottom: 20px; /* Eleva la regla desde el borde inferior */
-  left: 45%; /* Alineado con la columna "Score Chart" */
-  width: 25%; /* Ancho igual al de la columna "Score Chart" */
-  background-color: white; /* Fondo blanco para la regla */
-  z-index: 1000;
-}
-
-.score-line {
-  position: relative;
-  width: 100%;
-  height: 2px;
-  background-color: #333; /* Línea principal */
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.score-tick {
-  position: relative;
-  font-size: 0.7em;
-  color: #333;
-  text-align: center;
-  margin-top: 15px; /* Espaciado para que los números estén debajo de la regla */
-  flex: 1; /* Asegura que las marcas se distribuyan uniformemente */
-}
-
-.score-tick:first-child::before,
-.score-tick:last-child::before {
-  content: "";
-  position: absolute;
-  top: -10px; /* Eleva la marca para que quede sobre la línea */
-  left: 0; /* Alinea la primera marca al borde izquierdo */
-  transform: none;
-  width: 3px;
-  height: 10px;
-  background-color: #333; /* Marca de separación */
-}
-
-.score-tick:not(:first-child):not(:last-child)::before {
-  content: "";
-  position: absolute;
-  top: -10px; /* Eleva la marca para que quede sobre la línea */
-  left: 50%; /* Centra las marcas intermedias */
-  transform: translateX(-50%);
-  width: 1px;
-  height: 10px;
-  background-color: #333; /* Marca de separación */
 }
 
 .year-switch {
@@ -197,4 +144,40 @@ input:checked + .slider:before {
 .progress-bar.secondary {
   background-color: #66d33e;
   opacity: 0.8;
+}
+.table-container {
+  position: relative;
+  margin-top: 20px;
+  flex: 1;
+  overflow: hidden;
+}
+
+.table-header {
+  margin-right: 17px; /* Compensar el ancho del scrollbar */
+}
+
+table {
+  width: 100%;
+  table-layout: fixed; /* Esto fuerza a que las columnas mantengan sus anchos */
+  border-collapse: collapse; /* Cambiado a collapse para mostrar líneas entre celdas */
+  border-spacing: 0;
+  border: 1px solid #ddd; /* Borde exterior de la tabla */
+}
+
+.table-body-container {
+  overflow-y: scroll; /* Cambiado de auto a scroll para forzar la barra */
+  max-height: calc(100vh - 250px);
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Asegurar que las celdas tengan el mismo padding */
+th, td {
+  color: black;
+  padding: 12px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: 1px solid #ddd; /* Líneas entre celdas */
 }
