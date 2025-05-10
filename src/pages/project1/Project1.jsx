@@ -174,7 +174,11 @@ const Project1 = () => {
                             (company.scores[0]?.score / maxScore) * 100
                           }%`,
                         }}
-                      ></div>
+                      >
+                        <span className="progress-bar-text">
+                          {company.scores[0]?.score?.toFixed(6) || "N/A"}
+                        </span>
+                      </div>
                       {showTwoYears && (
                         <div
                           className="progress-bar secondary"
@@ -183,7 +187,11 @@ const Project1 = () => {
                               (company.scores[1]?.score / maxScore) * 100
                             }%`,
                           }}
-                        ></div>
+                        >
+                          <span className="progress-bar-text">
+                            {company.scores[1]?.score?.toFixed(6) || "N/A"}
+                          </span>
+                        </div>
                       )}
                     </div>
                   </td>

@@ -165,14 +165,16 @@ table {
 }
 
 .table-body-container {
-  overflow-y: scroll; /* Cambiado de auto a scroll para forzar la barra */
+  overflow-y: scroll;
   max-height: calc(100vh - 250px);
   border: 1px solid #ddd;
   border-radius: 4px;
+  position: relative; /* Añadido */
 }
 
 /* Asegurar que las celdas tengan el mismo padding */
-th, td {
+th,
+td {
   color: black;
   padding: 12px;
   text-align: center;
@@ -180,4 +182,67 @@ th, td {
   overflow: hidden;
   text-overflow: ellipsis;
   border: 1px solid #ddd; /* Líneas entre celdas */
+}
+
+.progress-bar {
+  position: relative; /* Añadir posición relativa */
+  height: 100%;
+  background-color: #6d84f6;
+  transition: width 0.4s ease;
+}
+
+.progress-bar-container {
+  width: 100%;
+  height: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 2px 0;
+  overflow: visible; /* Cambiado de hidden a visible */
+}
+
+td {
+  position: relative;
+  overflow: visible; /* Cambiado de hidden a visible */
+}
+
+.progress-bar:hover .progress-bar-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+.progress-bar-text {
+  visibility: hidden;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+  top: 50%; /* Centrar verticalmente */
+  left: calc(100% + 10px); /* Mover a la derecha de la barra */
+  transform: translateY(-50%); /* Ajustar centrado vertical */
+  z-index: 1000;
+  opacity: 0;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  pointer-events: none;
+}
+
+.progress-bar-text::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%; /* Cambiar posición de la flecha */
+  transform: translateY(-50%);
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent rgba(0, 0, 0, 0.8) transparent transparent; /* Cambiar dirección de la flecha */
+}
+
+/* Ajuste para el tooltip de la barra secundaria */
+.progress-bar.secondary .progress-bar-text {
+  top: 50%;
+  transform: translateY(-50%);
 }
