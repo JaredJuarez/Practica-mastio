@@ -246,3 +246,64 @@ td {
   top: 50%;
   transform: translateY(-50%);
 }
+
+.table-footer th {
+  margin-right: 17px;
+  background-color: transparent;
+  border: none;
+}
+
+.table-footer tr {
+  background-color: transparent;
+}
+
+.score-scale {
+  width: 100%;
+  padding: 8px 0;
+  overflow: visible;
+}
+
+.scale-line {
+  position: relative;
+  height: 20px;
+  border-top: 2px solid #aaa;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  overflow: visible;
+}
+
+.tick {
+  position: relative;
+  height: 100%;
+  width: 1px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  overflow: visible;
+}
+
+.tick::before {
+  content: "";
+  position: absolute;
+  top: -6px;
+  width: 2px;
+  height: 10px;
+  background-color: #aaa;
+}
+
+.tick-label {
+  position: absolute;
+  top: 8px;
+  font-size: 11px;
+  color: #666;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.score-col {
+  position: relative;
+  padding: 0%;
+  overflow: visible !important;
+}

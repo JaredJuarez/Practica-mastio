@@ -11,15 +11,27 @@ const Project1 = () => {
   const companies = report.categories[0]?.companies || [];
 
   // Calcular el valor máximo de score considerando ambos años
-  const maxScore = Math.max(
-    ...companies.map((company) => {
-      const scores = [company.scores[0]?.score || 0];
-      if (showTwoYears) {
-        scores.push(company.scores[1]?.score || 0);
-      }
-      return Math.max(...scores);
-    })
+  // const maxScore = Math.max(
+  //   ...companies.map((company) => {
+  //     const scores = [company.scores[0]?.score || 0];
+  //     if (showTwoYears) {
+  //       scores.push(company.scores[1]?.score || 0);
+  //     }
+  //     return Math.max(...scores);
+  //   })
+  // );
+
+  const allScores = companies.flatMap((company) =>
+    showTwoYears
+      ? [company.scores[0]?.score || 0, company.scores[1]?.score || 0]
+      : [company.scores[0]?.score || 0]
   );
+
+  const rawMin = Math.min(...allScores);
+  const rawMax = Math.max(...allScores);
+
+  const minScore = Math.floor(rawMin); // redondear hacia abajo
+  const maxScore = Math.ceil(rawMax); // redondear hacia arriba
 
   const getIncrementColor = (increment) => {
     if (increment > 0) {
@@ -61,16 +73,16 @@ const Project1 = () => {
           <table>
             <colgroup>
               <col style={{ width: "5%" }} />
-              <col style={{ width: "10%" }} />
+              <col style={{ width: "20%" }} />
               {showTwoYears ? (
                 <>
-                  <col style={{ width: "10%" }} />
-                  <col style={{ width: "10%" }} />
+                  <col style={{ width: "7.5%" }} />
+                  <col style={{ width: "7.5%" }} />
                 </>
               ) : (
-                <col style={{ width: "20%" }} />
+                <col style={{ width: "15%" }} />
               )}
-              <col style={{ width: "25%" }} />
+              <col style={{ width: "20%" }} />
               {showTwoYears ? (
                 <>
                   <col style={{ width: "10%" }} />
@@ -125,16 +137,16 @@ const Project1 = () => {
           <table>
             <colgroup>
               <col style={{ width: "5%" }} />
-              <col style={{ width: "10%" }} />
+              <col style={{ width: "20%" }} />
               {showTwoYears ? (
                 <>
-                  <col style={{ width: "10%" }} />
-                  <col style={{ width: "10%" }} />
+                  <col style={{ width: "7.5%" }} />
+                  <col style={{ width: "7.5%" }} />
                 </>
               ) : (
-                <col style={{ width: "20%" }} />
+                <col style={{ width: "15%" }} />
               )}
-              <col style={{ width: "25%" }} />
+              <col style={{ width: "20%" }} />
               {showTwoYears ? (
                 <>
                   <col style={{ width: "10%" }} />
@@ -171,7 +183,9 @@ const Project1 = () => {
                         className="progress-bar"
                         style={{
                           width: `${
-                            (company.scores[0]?.score / maxScore) * 100
+                            ((company.scores[0]?.score - minScore) /
+                              (maxScore - minScore)) *
+                            100
                           }%`,
                         }}
                       >
@@ -184,7 +198,9 @@ const Project1 = () => {
                           className="progress-bar secondary"
                           style={{
                             width: `${
-                              (company.scores[1]?.score / maxScore) * 100
+                              ((company.scores[1]?.score - minScore) /
+                                (maxScore - minScore)) *
+                              100
                             }%`,
                           }}
                         >
@@ -238,6 +254,44 @@ const Project1 = () => {
                 </tr>
               ))}
             </tbody>
+          </table>
+        </div>
+        <div className="table-header">
+          <table className="table-footer">
+            <colgroup>
+              <col style={{ width: "5%" }} />
+              <col style={{ width: "20%" }} />
+              <col style={{ width: "15%" }} />
+              <col style={{ width: "20%" }} />
+              <col style={{ width: "20%" }} />
+              <col style={{ width: "20%" }} />
+            </colgroup>
+            <tfoot>
+              <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th className="score-col">
+                  <div className="score-scale">
+                    <div className="scale-line">
+                      {Array.from(
+                        { length: maxScore - minScore + 1 },
+                        (_, i) => {
+                          const value = minScore + i;
+                          return (
+                            <div key={i} className="tick">
+                              <span className="tick-label">{value}</span>
+                            </div>
+                          );
+                        }
+                      )}
+                    </div>
+                  </div>
+                </th>
+                <th></th>
+                <th></th>
+              </tr>
+            </tfoot>
           </table>
         </div>
       </div>
