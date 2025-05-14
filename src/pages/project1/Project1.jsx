@@ -106,8 +106,12 @@ const Project1 = () => {
                 <th>Company</th>
                 {showTwoYears ? (
                   <>
-                    <th>Observations 2024</th>
-                    <th>Observations 2023</th>
+                    <th style={{ backgroundColor: "#6d84f6" }}>
+                      Observations 2024
+                    </th>
+                    <th style={{ backgroundColor: "#66d33e" }}>
+                      Observations 2023
+                    </th>
                   </>
                 ) : (
                   <th>Number of observations</th>
@@ -115,8 +119,8 @@ const Project1 = () => {
                 <th>Score Chart</th>
                 {showTwoYears ? (
                   <>
-                    <th>Score 2024</th>
-                    <th>Score 2023</th>
+                    <th style={{ backgroundColor: "#6d84f6" }}>Score 2024</th>
+                    <th style={{ backgroundColor: "#66d33e" }}>Score 2023</th>
                   </>
                 ) : (
                   <th>Score</th>
@@ -183,7 +187,7 @@ const Project1 = () => {
                         className="progress-bar"
                         style={{
                           width: `${
-                            ((company.scores[0]?.score - minScore) /
+                            ((company.scores[1]?.score - minScore) /
                               (maxScore - minScore)) *
                             100
                           }%`,
@@ -198,7 +202,7 @@ const Project1 = () => {
                           className="progress-bar secondary"
                           style={{
                             width: `${
-                              ((company.scores[1]?.score - minScore) /
+                              ((company.scores[0]?.score - minScore) /
                                 (maxScore - minScore)) *
                               100
                             }%`,
