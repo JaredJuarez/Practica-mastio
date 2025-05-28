@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import reportDataFocusCompany from "../../data/reportData-focusCompany.json";
-import "../project1/Project.css";
+import "../styles/Project.css";
 
 const Project2 = () => {
   const { report } = reportDataFocusCompany;
@@ -28,9 +28,9 @@ const Project2 = () => {
               <col style={{ width: "12%" }} /> {/* Attribute Classification */}
               <col style={{ width: "8%" }} /> {/* Stated Importance */}
               <col style={{ width: "8%" }} /> {/* Derived Importance */}
-              <col style={{ width: "25%" }} /> {/* Attribute */}
+              <col style={{ width: "15%" }} /> {/* Attribute */}
               <col style={{ width: "8%" }} /> {/* # of Observations */}
-              <col style={{ width: "15%" }} /> {/* Performance Score */}
+              <col style={{ width: "25%" }} /> {/* Performance Score */}
               <col style={{ width: "8%" }} /> {/* Rank */}
               <col style={{ width: "8%" }} /> {/* Industry */}
             </colgroup>
@@ -55,9 +55,9 @@ const Project2 = () => {
               <col style={{ width: "12%" }} />
               <col style={{ width: "8%" }} />
               <col style={{ width: "8%" }} />
-              <col style={{ width: "25%" }} />
+              <col style={{ width: "15%" }} />
               <col style={{ width: "8%" }} />
-              <col style={{ width: "12%" }} />
+              <col style={{ width: "22%" }} />
               <col style={{ width: "3%" }} />
               <col style={{ width: "8%" }} />
               <col style={{ width: "8%" }} />
@@ -79,33 +79,45 @@ const Project2 = () => {
                     {item.name}
                   </td>
                   <td>{item.responses}</td>
-                  <td>
+                  <td style={{ padding: "0" }}>
                     <div className="performance-bar-container">
                       <div className="performance-bar-container">
                         {/* Barra principal del score */}
                         <div
                           className="performance-bar"
                           style={{
-                            width: `${(item.score / 10) * 100}%`,
+                            width: `${
+                              ((item.score - minScore) /
+                                (maxScore - minScore)) *
+                              100
+                            }%`,
                             backgroundColor: "#6d84f6",
                           }}
                         ></div>
-                        {/* Línea para Industry Mean - solo si existe el dato */}
+                        {/* Línea para Industry Mean */}
                         {item.industryMean && (
                           <div
                             className="indicator-line"
                             style={{
-                              left: `${(item.industryMean / 10) * 100}%`,
+                              left: `${
+                                ((item.industryMean - minScore) /
+                                  (maxScore - minScore)) *
+                                100
+                              }%`,
                               backgroundColor: "#ff0000",
                             }}
                           />
                         )}
-                        {/* Línea para Importance - solo si existe el dato */}
+                        {/* Línea para Importance */}
                         {item.importance && (
                           <div
                             className="indicator-line"
                             style={{
-                              left: `${(item.importance / 10) * 100}%`,
+                              left: `${
+                                ((item.importance - minScore) /
+                                  (maxScore - minScore)) *
+                                100
+                              }%`,
                               backgroundColor: "#0400ff",
                             }}
                           />
@@ -128,9 +140,9 @@ const Project2 = () => {
               <col style={{ width: "12%" }} />
               <col style={{ width: "8%" }} />
               <col style={{ width: "8%" }} />
-              <col style={{ width: "25%" }} />
+              <col style={{ width: "15%" }} />
               <col style={{ width: "8%" }} />
-              <col style={{ width: "12%" }} />
+              <col style={{ width: "22%" }} />
               <col style={{ width: "3%" }} />
               <col style={{ width: "8%" }} />
               <col style={{ width: "8%" }} />

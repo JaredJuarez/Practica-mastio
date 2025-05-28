@@ -1,7 +1,7 @@
 import React, { use, useState } from "react";
 import reportData from "../../data/reportData.json";
 import reportData2Years from "../../data/reportData-2years.json";
-import "../project1/Project.css";
+import "../styles/Project.css";
 
 const Project1 = () => {
   const [showTwoYears, setShowTwoYears] = useState(false);
