@@ -392,3 +392,47 @@ tr:hover {
   transform: translateX(-50%);
   z-index: 2;
 }
+
+/* PROJECT 3 */
+
+.project-container {
+    padding: 20px;
+}
+
+.chart-container {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.custom-tooltip {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.legend-container {
+    margin-top: 20px;
+}
+
+.category-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.category-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.color-box {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    display: inline-block;
+}
