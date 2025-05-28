@@ -1,0 +1,193 @@
+{
+  "attributes": [
+    {
+      "name": "Accurate operational information is readily available.",
+      "category": "Baseline Requirements",
+      "code": "B1",
+      "importance": 9.343661,
+      "correlatedCoeficient": 0.5848
+    },
+    {
+      "name": "Effectiveness of the pipeline's system for nominating, confirming and scheduling.",
+      "category": "Baseline Requirements",
+      "code": "B2",
+      "importance": 9.321052,
+      "correlatedCoeficient": 0.5768
+    },
+    {
+      "name": "Accuracy of gas metering systems.",
+      "category": "Baseline Requirements",
+      "code": "B3",
+      "importance": 9.489763,
+      "correlatedCoeficient": 0.5527
+    },
+    {
+      "name": "Scheduled gas volumes are accurate.",
+      "category": "Baseline Requirements",
+      "code": "B4",
+      "importance": 9.588323,
+      "correlatedCoeficient": 0.4597
+    },
+    {
+      "name": "Accuracy of invoices.",
+      "category": "Baseline Requirements",
+      "code": "B5",
+      "importance": 9.566445,
+      "correlatedCoeficient": 0.449
+    },
+    {
+      "name": "Value received for the money paid to the pipeline.",
+      "category": "Conscious Differentiators",
+      "code": "CS1",
+      "importance": 9.414373,
+      "correlatedCoeficient": 0.7546
+    },
+    {
+      "name": "Communicates in an honest and forthright manner.",
+      "category": "Conscious Differentiators",
+      "code": "CS2",
+      "importance": 9.555555,
+      "correlatedCoeficient": 0.7213
+    },
+    {
+      "name": "Management of pipeline initiated restrictions.",
+      "category": "Conscious Differentiators",
+      "code": "CS3",
+      "importance": 9.299236,
+      "correlatedCoeficient": 0.7153
+    },
+    {
+      "name": "Pipeline staff provides prompt and accurate responses to questions and requests and issues.",
+      "category": "Conscious Differentiators",
+      "code": "CS4",
+      "importance": 9.36061,
+      "correlatedCoeficient": 0.7145
+    },
+    {
+      "name": "Expertise of the representatives to help solve your business needs. ",
+      "category": "Conscious Differentiators",
+      "code": "CS5",
+      "importance": 9.247222,
+      "correlatedCoeficient": 0.6907
+    },
+    {
+      "name": "Representatives who listen well.",
+      "category": "Conscious Differentiators",
+      "code": "CS6",
+      "importance": 9.310679,
+      "correlatedCoeficient": 0.6899
+    },
+    {
+      "name": "Firm gas transportation is highly reliable.",
+      "category": "Conscious Differentiators",
+      "code": "CS7",
+      "importance": 9.761636,
+      "correlatedCoeficient": 0.6794
+    },
+    {
+      "name": "Representatives are accessible when needed.",
+      "category": "Conscious Differentiators",
+      "code": "CS8",
+      "importance": 9.540166,
+      "correlatedCoeficient": 0.6637
+    },
+    {
+      "name": "Competitive rates and/or discounts.  ",
+      "category": "Conscious Differentiators",
+      "code": "CS9",
+      "importance": 9.392733,
+      "correlatedCoeficient": 0.6395
+    },
+    {
+      "name": "Effective after-hours support.",
+      "category": "Conscious Differentiators",
+      "code": "CS10",
+      "importance": 9.236974,
+      "correlatedCoeficient": 0.6309
+    },
+    {
+      "name": "Representatives use creativity and innovation to help address your business needs. ",
+      "category": "Latent Differentiators",
+      "code": "LD1",
+      "importance": 8.591749,
+      "correlatedCoeficient": 0.721
+    },
+    {
+      "name": "Effectiveness of contract negotiations.",
+      "category": "Latent Differentiators",
+      "code": "LD2",
+      "importance": 9.147509,
+      "correlatedCoeficient": 0.711
+    },
+    {
+      "name": "Representatives understand the needs and challenges of your business.",
+      "category": "Latent Differentiators",
+      "code": "LD3",
+      "importance": 9.132496,
+      "correlatedCoeficient": 0.6892
+    },
+    {
+      "name": "Flexible transport options.",
+      "category": "Latent Differentiators",
+      "code": "LD4",
+      "importance": 8.820642,
+      "correlatedCoeficient": 0.6735
+    },
+    {
+      "name": "Flexibility of physical gas flow delivery.",
+      "category": "Latent Differentiators",
+      "code": "LD5",
+      "importance": 9.211062,
+      "correlatedCoeficient": 0.669
+    },
+    {
+      "name": "Quality of pipeline initiated communications.",
+      "category": "Latent Differentiators",
+      "code": "LD6",
+      "importance": 9.02676,
+      "correlatedCoeficient": 0.6613
+    },
+    {
+      "name": "Effectiveness of pipeline's system training. (i.e. their proprietary EBB)",
+      "category": "Latent Differentiators",
+      "code": "LD7",
+      "importance": 8.734406,
+      "correlatedCoeficient": 0.6401
+    },
+    {
+      "name": "Effectiveness of pipeline's capacity release and contract systems and procedures.",
+      "category": "Industry Parity",
+      "code": "L1",
+      "importance": 8.939501,
+      "correlatedCoeficient": 0.5793
+    },
+    {
+      "name": "Flexibility of gas pooling and aggregation services.",
+      "category": "Industry Parity",
+      "code": "L2",
+      "importance": 8.752964,
+      "correlatedCoeficient": 0.5737
+    },
+    {
+      "name": "Financial stability of the pipeline.",
+      "category": "Industry Parity",
+      "code": "L3",
+      "importance": 8.973886,
+      "correlatedCoeficient": 0.5401
+    },
+    {
+      "name": "Ample access to diverse supply and/or markets",
+      "category": "Industry Parity",
+      "code": "L4",
+      "importance": 9.015673,
+      "correlatedCoeficient": 0.5228
+    },
+    {
+      "name": "Access to available storage.",
+      "category": "Industry Parity",
+      "code": "L5",
+      "importance": 8.956363,
+      "correlatedCoeficient": 0.4893
+    }
+  ]
+}

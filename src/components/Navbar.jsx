@@ -16,11 +16,11 @@ const Navbar = () => {
             Project 2
           </NavLink>
         </li>
-        {/* <li>
+        <li>
           <NavLink to="/project3" activeClassName="active-link">
             Project 3
           </NavLink>
-        </li> */}
+        </li>
       </ul>
     </nav>
   );
